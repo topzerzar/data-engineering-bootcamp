@@ -16,13 +16,13 @@ port = parser.getint("sftp_config", "port")
 cnopts = pysftp.CnOpts()
 cnopts.hostkeys = None
 
+DATA_FOLDER = "data"
+
 files = [
-    "promos.csv",
     "products.csv",
+    "promos.csv",
 ]
 with pysftp.Connection(host, username=username, password=password, port=port, cnopts=cnopts) as sftp:
     for f in files:
-        sftp.get(f)
+        sftp.get(f, f"{DATA_FOLDER}/{f}")
         print(f"Finished downloading: {f}")
-
-    # sftp.put("some.txt", "uploaded.txt")
