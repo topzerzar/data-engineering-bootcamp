@@ -1,0 +1,42 @@
+[2023-05-20T02:19:28.916+0000] {processor.py:153} INFO - Started process (PID=171) to work on /opt/airflow/dags/greenery_addresses_data_pipeline.py
+[2023-05-20T02:19:28.918+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/greenery_addresses_data_pipeline.py for tasks to queue
+[2023-05-20T02:19:28.922+0000] {logging_mixin.py:137} INFO - [2023-05-20T02:19:28.922+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/greenery_addresses_data_pipeline.py
+[2023-05-20T02:19:29.625+0000] {processor.py:753} INFO - DAG(s) dict_keys(['greenery_addresses_data_pipeline']) retrieved from /opt/airflow/dags/greenery_addresses_data_pipeline.py
+[2023-05-20T02:19:29.651+0000] {logging_mixin.py:137} INFO - [2023-05-20T02:19:29.651+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-20T02:19:29.667+0000] {logging_mixin.py:137} INFO - [2023-05-20T02:19:29.667+0000] {dag.py:3456} INFO - Setting next_dagrun for greenery_addresses_data_pipeline to None, run_after=None
+[2023-05-20T02:19:29.682+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/greenery_addresses_data_pipeline.py took 0.782 seconds
+[2023-05-20T02:19:59.759+0000] {processor.py:153} INFO - Started process (PID=410) to work on /opt/airflow/dags/greenery_addresses_data_pipeline.py
+[2023-05-20T02:19:59.760+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/greenery_addresses_data_pipeline.py for tasks to queue
+[2023-05-20T02:19:59.762+0000] {logging_mixin.py:137} INFO - [2023-05-20T02:19:59.762+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/greenery_addresses_data_pipeline.py
+[2023-05-20T02:20:00.158+0000] {processor.py:753} INFO - DAG(s) dict_keys(['greenery_addresses_data_pipeline']) retrieved from /opt/airflow/dags/greenery_addresses_data_pipeline.py
+[2023-05-20T02:20:00.180+0000] {logging_mixin.py:137} INFO - [2023-05-20T02:20:00.179+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-20T02:20:00.198+0000] {logging_mixin.py:137} INFO - [2023-05-20T02:20:00.198+0000] {dag.py:3456} INFO - Setting next_dagrun for greenery_addresses_data_pipeline to None, run_after=None
+[2023-05-20T02:20:00.213+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/greenery_addresses_data_pipeline.py took 0.457 seconds
+[2023-05-20T02:20:30.446+0000] {processor.py:153} INFO - Started process (PID=619) to work on /opt/airflow/dags/greenery_addresses_data_pipeline.py
+[2023-05-20T02:20:30.448+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/greenery_addresses_data_pipeline.py for tasks to queue
+[2023-05-20T02:20:30.450+0000] {logging_mixin.py:137} INFO - [2023-05-20T02:20:30.450+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/greenery_addresses_data_pipeline.py
+[2023-05-20T02:20:30.778+0000] {processor.py:753} INFO - DAG(s) dict_keys(['greenery_addresses_data_pipeline']) retrieved from /opt/airflow/dags/greenery_addresses_data_pipeline.py
+[2023-05-20T02:20:30.797+0000] {logging_mixin.py:137} INFO - [2023-05-20T02:20:30.797+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-20T02:20:30.813+0000] {logging_mixin.py:137} INFO - [2023-05-20T02:20:30.813+0000] {dag.py:3456} INFO - Setting next_dagrun for greenery_addresses_data_pipeline to None, run_after=None
+[2023-05-20T02:20:30.824+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/greenery_addresses_data_pipeline.py took 0.384 seconds
+[2023-05-20T02:21:01.286+0000] {processor.py:153} INFO - Started process (PID=843) to work on /opt/airflow/dags/greenery_addresses_data_pipeline.py
+[2023-05-20T02:21:01.288+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/greenery_addresses_data_pipeline.py for tasks to queue
+[2023-05-20T02:21:01.290+0000] {logging_mixin.py:137} INFO - [2023-05-20T02:21:01.290+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/greenery_addresses_data_pipeline.py
+[2023-05-20T02:21:01.685+0000] {processor.py:753} INFO - DAG(s) dict_keys(['greenery_addresses_data_pipeline']) retrieved from /opt/airflow/dags/greenery_addresses_data_pipeline.py
+[2023-05-20T02:21:01.703+0000] {logging_mixin.py:137} INFO - [2023-05-20T02:21:01.702+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-20T02:21:01.718+0000] {logging_mixin.py:137} INFO - [2023-05-20T02:21:01.718+0000] {dag.py:3456} INFO - Setting next_dagrun for greenery_addresses_data_pipeline to None, run_after=None
+[2023-05-20T02:21:01.730+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/greenery_addresses_data_pipeline.py took 0.449 seconds
+[2023-05-20T02:21:31.790+0000] {processor.py:153} INFO - Started process (PID=1082) to work on /opt/airflow/dags/greenery_addresses_data_pipeline.py
+[2023-05-20T02:21:31.792+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/greenery_addresses_data_pipeline.py for tasks to queue
+[2023-05-20T02:21:31.793+0000] {logging_mixin.py:137} INFO - [2023-05-20T02:21:31.793+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/greenery_addresses_data_pipeline.py
+[2023-05-20T02:21:32.138+0000] {processor.py:753} INFO - DAG(s) dict_keys(['greenery_addresses_data_pipeline']) retrieved from /opt/airflow/dags/greenery_addresses_data_pipeline.py
+[2023-05-20T02:21:32.155+0000] {logging_mixin.py:137} INFO - [2023-05-20T02:21:32.155+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-20T02:21:32.169+0000] {logging_mixin.py:137} INFO - [2023-05-20T02:21:32.169+0000] {dag.py:3456} INFO - Setting next_dagrun for greenery_addresses_data_pipeline to None, run_after=None
+[2023-05-20T02:21:32.179+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/greenery_addresses_data_pipeline.py took 0.392 seconds
+[2023-05-20T02:22:03.145+0000] {processor.py:153} INFO - Started process (PID=1316) to work on /opt/airflow/dags/greenery_addresses_data_pipeline.py
+[2023-05-20T02:22:03.150+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/greenery_addresses_data_pipeline.py for tasks to queue
+[2023-05-20T02:22:03.151+0000] {logging_mixin.py:137} INFO - [2023-05-20T02:22:03.151+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/greenery_addresses_data_pipeline.py
+[2023-05-20T02:22:03.468+0000] {processor.py:753} INFO - DAG(s) dict_keys(['greenery_addresses_data_pipeline']) retrieved from /opt/airflow/dags/greenery_addresses_data_pipeline.py
+[2023-05-20T02:22:03.486+0000] {logging_mixin.py:137} INFO - [2023-05-20T02:22:03.486+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-20T02:22:03.502+0000] {logging_mixin.py:137} INFO - [2023-05-20T02:22:03.502+0000] {dag.py:3456} INFO - Setting next_dagrun for greenery_addresses_data_pipeline to None, run_after=None
+[2023-05-20T02:22:03.515+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/greenery_addresses_data_pipeline.py took 0.376 seconds

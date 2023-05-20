@@ -1,0 +1,35 @@
+[2023-05-13T09:25:58.519+0000] {processor.py:153} INFO - Started process (PID=230) to work on /opt/airflow/dags/bootcamp.py
+[2023-05-13T09:25:58.521+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bootcamp.py for tasks to queue
+[2023-05-13T09:25:58.522+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:25:58.522+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/bootcamp.py
+[2023-05-13T09:25:58.540+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bootcamp.py
+[2023-05-13T09:25:58.556+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bootcamp.py took 0.040 seconds
+[2023-05-13T09:26:29.543+0000] {processor.py:153} INFO - Started process (PID=509) to work on /opt/airflow/dags/bootcamp.py
+[2023-05-13T09:26:29.545+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bootcamp.py for tasks to queue
+[2023-05-13T09:26:29.546+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:26:29.546+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/bootcamp.py
+[2023-05-13T09:26:29.560+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bootcamp.py
+[2023-05-13T09:26:29.587+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bootcamp.py took 0.049 seconds
+[2023-05-13T09:27:00.570+0000] {processor.py:153} INFO - Started process (PID=787) to work on /opt/airflow/dags/bootcamp.py
+[2023-05-13T09:27:00.572+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bootcamp.py for tasks to queue
+[2023-05-13T09:27:00.573+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:27:00.573+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/bootcamp.py
+[2023-05-13T09:27:00.582+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bootcamp.py
+[2023-05-13T09:27:00.595+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bootcamp.py took 0.028 seconds
+[2023-05-13T09:27:31.239+0000] {processor.py:153} INFO - Started process (PID=1065) to work on /opt/airflow/dags/bootcamp.py
+[2023-05-13T09:27:31.243+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bootcamp.py for tasks to queue
+[2023-05-13T09:27:31.245+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:27:31.245+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/bootcamp.py
+[2023-05-13T09:27:31.261+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bootcamp.py
+[2023-05-13T09:27:31.280+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bootcamp.py took 0.045 seconds
+[2023-05-13T09:28:01.890+0000] {processor.py:153} INFO - Started process (PID=1343) to work on /opt/airflow/dags/bootcamp.py
+[2023-05-13T09:28:01.892+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bootcamp.py for tasks to queue
+[2023-05-13T09:28:01.894+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:28:01.894+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/bootcamp.py
+[2023-05-13T09:28:01.903+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bootcamp.py
+[2023-05-13T09:28:01.921+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bootcamp.py took 0.034 seconds
+[2023-05-13T09:28:32.757+0000] {processor.py:153} INFO - Started process (PID=1621) to work on /opt/airflow/dags/bootcamp.py
+[2023-05-13T09:28:32.759+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bootcamp.py for tasks to queue
+[2023-05-13T09:28:32.760+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:28:32.760+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/bootcamp.py
+[2023-05-13T09:28:32.769+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bootcamp.py
+[2023-05-13T09:28:32.785+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bootcamp.py took 0.031 seconds
+[2023-05-13T09:29:03.599+0000] {processor.py:153} INFO - Started process (PID=1899) to work on /opt/airflow/dags/bootcamp.py
+[2023-05-13T09:29:03.601+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bootcamp.py for tasks to queue
+[2023-05-13T09:29:03.603+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:29:03.602+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/bootcamp.py
+[2023-05-13T09:29:03.612+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bootcamp.py
+[2023-05-13T09:29:03.632+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bootcamp.py took 0.036 seconds

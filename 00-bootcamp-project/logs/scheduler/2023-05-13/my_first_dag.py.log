@@ -1,0 +1,148 @@
+[2023-05-13T09:25:56.651+0000] {processor.py:153} INFO - Started process (PID=185) to work on /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:25:56.653+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2023-05-13T09:25:56.658+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:25:56.655+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:25:56.679+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:25:56.679+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t6>, t8 already registered for DAG: my_first_dag
+[2023-05-13T09:25:56.680+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:25:56.680+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t8>, t6 already registered for DAG: my_first_dag
+[2023-05-13T09:25:56.686+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:25:56.802+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:25:56.801+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:my_first_dag
+[2023-05-13T09:25:56.812+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:25:56.812+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:my_first_dag
+[2023-05-13T09:25:56.828+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:25:56.828+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:my_first_dag
+[2023-05-13T09:25:56.829+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:25:56.829+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:25:56.844+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:25:56.844+0000] {dag.py:2726} INFO - Creating ORM DAG for my_first_dag
+[2023-05-13T09:25:56.855+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:25:56.855+0000] {dag.py:3456} INFO - Setting next_dagrun for my_first_dag to None, run_after=None
+[2023-05-13T09:25:56.873+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.225 seconds
+[2023-05-13T09:26:27.481+0000] {processor.py:153} INFO - Started process (PID=464) to work on /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:26:27.484+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2023-05-13T09:26:27.486+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:26:27.486+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:26:27.505+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:26:27.505+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t6>, t8 already registered for DAG: my_first_dag
+[2023-05-13T09:26:27.507+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:26:27.507+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t8>, t6 already registered for DAG: my_first_dag
+[2023-05-13T09:26:27.515+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:26:27.541+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:26:27.541+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:26:27.561+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:26:27.561+0000] {dag.py:3456} INFO - Setting next_dagrun for my_first_dag to None, run_after=None
+[2023-05-13T09:26:27.580+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.103 seconds
+[2023-05-13T09:26:58.547+0000] {processor.py:153} INFO - Started process (PID=742) to work on /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:26:58.553+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2023-05-13T09:26:58.554+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:26:58.554+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:26:58.564+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:26:58.564+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t6>, t8 already registered for DAG: my_first_dag
+[2023-05-13T09:26:58.565+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:26:58.565+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t8>, t6 already registered for DAG: my_first_dag
+[2023-05-13T09:26:58.573+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:26:58.599+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:26:58.599+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:26:58.620+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:26:58.620+0000] {dag.py:3456} INFO - Setting next_dagrun for my_first_dag to None, run_after=None
+[2023-05-13T09:26:58.640+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.095 seconds
+[2023-05-13T09:27:28.777+0000] {processor.py:153} INFO - Started process (PID=1020) to work on /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:27:28.780+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2023-05-13T09:27:28.781+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:27:28.781+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:27:28.798+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:27:28.798+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t6>, t8 already registered for DAG: my_first_dag
+[2023-05-13T09:27:28.800+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:27:28.799+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t8>, t6 already registered for DAG: my_first_dag
+[2023-05-13T09:27:28.807+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:27:28.847+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:27:28.847+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:27:28.875+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:27:28.875+0000] {dag.py:3456} INFO - Setting next_dagrun for my_first_dag to None, run_after=None
+[2023-05-13T09:27:28.894+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.121 seconds
+[2023-05-13T09:27:59.541+0000] {processor.py:153} INFO - Started process (PID=1298) to work on /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:27:59.543+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2023-05-13T09:27:59.544+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:27:59.544+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:27:59.567+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:27:59.566+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t6>, t8 already registered for DAG: my_first_dag
+[2023-05-13T09:27:59.568+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:27:59.568+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t8>, t6 already registered for DAG: my_first_dag
+[2023-05-13T09:27:59.574+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:27:59.600+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:27:59.600+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:27:59.619+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:27:59.619+0000] {dag.py:3456} INFO - Setting next_dagrun for my_first_dag to None, run_after=None
+[2023-05-13T09:27:59.636+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.098 seconds
+[2023-05-13T09:28:29.935+0000] {processor.py:153} INFO - Started process (PID=1576) to work on /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:28:29.937+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2023-05-13T09:28:29.938+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:28:29.938+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:28:29.948+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:28:29.948+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t6>, t8 already registered for DAG: my_first_dag
+[2023-05-13T09:28:29.951+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:28:29.951+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t8>, t6 already registered for DAG: my_first_dag
+[2023-05-13T09:28:29.956+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:28:29.979+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:28:29.978+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:28:29.996+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:28:29.996+0000] {dag.py:3456} INFO - Setting next_dagrun for my_first_dag to None, run_after=None
+[2023-05-13T09:28:30.007+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.075 seconds
+[2023-05-13T09:29:00.664+0000] {processor.py:153} INFO - Started process (PID=1854) to work on /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:29:00.668+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2023-05-13T09:29:00.670+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:29:00.669+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:29:00.680+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:29:00.680+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t6>, t8 already registered for DAG: my_first_dag
+[2023-05-13T09:29:00.681+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:29:00.681+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t8>, t6 already registered for DAG: my_first_dag
+[2023-05-13T09:29:00.687+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:29:00.712+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:29:00.712+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:29:00.728+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:29:00.728+0000] {dag.py:3456} INFO - Setting next_dagrun for my_first_dag to None, run_after=None
+[2023-05-13T09:29:00.740+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.079 seconds
+[2023-05-13T09:29:30.830+0000] {processor.py:153} INFO - Started process (PID=2131) to work on /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:29:30.833+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2023-05-13T09:29:30.835+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:29:30.835+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:29:30.869+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:29:30.868+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t6>, t8 already registered for DAG: my_first_dag
+[2023-05-13T09:29:30.872+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:29:30.871+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t8>, t6 already registered for DAG: my_first_dag
+[2023-05-13T09:29:30.891+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:29:30.954+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:29:30.954+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:29:30.989+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:29:30.989+0000] {dag.py:3456} INFO - Setting next_dagrun for my_first_dag to None, run_after=None
+[2023-05-13T09:29:31.006+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.181 seconds
+[2023-05-13T09:30:01.923+0000] {processor.py:153} INFO - Started process (PID=2405) to work on /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:30:01.927+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2023-05-13T09:30:01.929+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:01.929+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:30:01.945+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:01.945+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t6>, t8 already registered for DAG: my_first_dag
+[2023-05-13T09:30:01.949+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:01.949+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t8>, t6 already registered for DAG: my_first_dag
+[2023-05-13T09:30:01.963+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:30:02.001+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:02.001+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:30:02.031+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:02.031+0000] {dag.py:3456} INFO - Setting next_dagrun for my_first_dag to None, run_after=None
+[2023-05-13T09:30:02.048+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.129 seconds
+[2023-05-13T09:30:32.152+0000] {processor.py:153} INFO - Started process (PID=2693) to work on /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:30:32.155+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2023-05-13T09:30:32.157+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:32.157+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:30:32.178+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:32.178+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t6>, t8 already registered for DAG: my_first_dag
+[2023-05-13T09:30:32.189+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:32.189+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t8>, t6 already registered for DAG: my_first_dag
+[2023-05-13T09:30:32.203+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:30:32.235+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:32.235+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:30:32.261+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:32.261+0000] {dag.py:3456} INFO - Setting next_dagrun for my_first_dag to None, run_after=None
+[2023-05-13T09:30:32.279+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.131 seconds
+[2023-05-13T09:31:03.141+0000] {processor.py:153} INFO - Started process (PID=2970) to work on /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:31:03.143+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2023-05-13T09:31:03.145+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:31:03.145+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:31:03.170+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:31:03.170+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t6>, t8 already registered for DAG: my_first_dag
+[2023-05-13T09:31:03.172+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:31:03.172+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t8>, t6 already registered for DAG: my_first_dag
+[2023-05-13T09:31:03.177+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:31:03.200+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:31:03.200+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:31:03.221+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:31:03.221+0000] {dag.py:3456} INFO - Setting next_dagrun for my_first_dag to None, run_after=None
+[2023-05-13T09:31:03.237+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.100 seconds
+[2023-05-13T09:31:33.507+0000] {processor.py:153} INFO - Started process (PID=3249) to work on /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:31:33.514+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2023-05-13T09:31:33.515+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:31:33.515+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:31:33.526+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:31:33.526+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t6>, t8 already registered for DAG: my_first_dag
+[2023-05-13T09:31:33.527+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:31:33.527+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t8>, t6 already registered for DAG: my_first_dag
+[2023-05-13T09:31:33.532+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:31:33.558+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:31:33.558+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:31:33.578+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:31:33.578+0000] {dag.py:3456} INFO - Setting next_dagrun for my_first_dag to None, run_after=None
+[2023-05-13T09:31:33.594+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.089 seconds
+[2023-05-13T09:32:03.912+0000] {processor.py:153} INFO - Started process (PID=3508) to work on /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:32:03.915+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2023-05-13T09:32:03.918+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:32:03.917+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:32:03.933+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:32:03.933+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t6>, t8 already registered for DAG: my_first_dag
+[2023-05-13T09:32:03.946+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:32:03.945+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t8>, t6 already registered for DAG: my_first_dag
+[2023-05-13T09:32:03.952+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:32:03.978+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:32:03.978+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:32:03.998+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:32:03.998+0000] {dag.py:3456} INFO - Setting next_dagrun for my_first_dag to None, run_after=None
+[2023-05-13T09:32:04.014+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.105 seconds
+[2023-05-13T09:32:34.338+0000] {processor.py:153} INFO - Started process (PID=3766) to work on /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:32:34.341+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2023-05-13T09:32:34.343+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:32:34.343+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:32:34.361+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:32:34.361+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t6>, t8 already registered for DAG: my_first_dag
+[2023-05-13T09:32:34.364+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:32:34.364+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t8>, t6 already registered for DAG: my_first_dag
+[2023-05-13T09:32:34.373+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:32:34.439+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:32:34.439+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:32:34.483+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:32:34.483+0000] {dag.py:3456} INFO - Setting next_dagrun for my_first_dag to None, run_after=None
+[2023-05-13T09:32:34.506+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.175 seconds
+[2023-05-13T09:33:04.776+0000] {processor.py:153} INFO - Started process (PID=4023) to work on /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:33:04.779+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2023-05-13T09:33:04.795+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:33:04.795+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:33:04.813+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:33:04.813+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t6>, t8 already registered for DAG: my_first_dag
+[2023-05-13T09:33:04.815+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:33:04.815+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t8>, t6 already registered for DAG: my_first_dag
+[2023-05-13T09:33:04.823+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:33:04.853+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:33:04.853+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:33:04.875+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:33:04.875+0000] {dag.py:3456} INFO - Setting next_dagrun for my_first_dag to None, run_after=None
+[2023-05-13T09:33:04.893+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.123 seconds
+[2023-05-13T09:33:35.303+0000] {processor.py:153} INFO - Started process (PID=4286) to work on /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:33:35.307+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2023-05-13T09:33:35.308+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:33:35.308+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:33:35.323+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:33:35.322+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t6>, t8 already registered for DAG: my_first_dag
+[2023-05-13T09:33:35.324+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:33:35.324+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmptyOperator): t8>, t6 already registered for DAG: my_first_dag
+[2023-05-13T09:33:35.331+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /opt/airflow/dags/my_first_dag.py
+[2023-05-13T09:33:35.361+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:33:35.361+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:33:35.383+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:33:35.383+0000] {dag.py:3456} INFO - Setting next_dagrun for my_first_dag to None, run_after=None
+[2023-05-13T09:33:35.400+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.101 seconds

@@ -1,0 +1,37 @@
+[2023-05-14T05:49:19.383+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: greenery_addresses_data_pipeline.load_data_from_gcs_to_bigquery manual__2023-05-14T05:44:23.238480+00:00 [queued]>
+[2023-05-14T05:49:19.392+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: greenery_addresses_data_pipeline.load_data_from_gcs_to_bigquery manual__2023-05-14T05:44:23.238480+00:00 [queued]>
+[2023-05-14T05:49:19.393+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-14T05:49:19.394+0000] {taskinstance.py:1289} INFO - Starting attempt 2 of 2
+[2023-05-14T05:49:19.395+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-14T05:49:19.409+0000] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): load_data_from_gcs_to_bigquery> on 2023-05-14 05:44:23.238480+00:00
+[2023-05-14T05:49:19.418+0000] {standard_task_runner.py:55} INFO - Started process 11160 to run task
+[2023-05-14T05:49:19.423+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'greenery_addresses_data_pipeline', 'load_data_from_gcs_to_bigquery', 'manual__2023-05-14T05:44:23.238480+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/greenery_addresses_data_pipeline.py', '--cfg-path', '/tmp/tmpd4skobi3']
+[2023-05-14T05:49:19.425+0000] {standard_task_runner.py:83} INFO - Job 24: Subtask load_data_from_gcs_to_bigquery
+[2023-05-14T05:49:19.508+0000] {task_command.py:389} INFO - Running <TaskInstance: greenery_addresses_data_pipeline.load_data_from_gcs_to_bigquery manual__2023-05-14T05:44:23.238480+00:00 [running]> on host 81a59154956d
+[2023-05-14T05:49:19.565+0000] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=greenery_addresses_data_pipeline
+AIRFLOW_CTX_TASK_ID=load_data_from_gcs_to_bigquery
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-14T05:44:23.238480+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-14T05:44:23.238480+00:00
+[2023-05-14T05:49:19.568+0000] {logging_mixin.py:137} INFO - ##### Start load data: addresses , date: 2023-05-14 from GCS to Big Query #####
+[2023-05-14T05:49:20.596+0000] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/greenery_addresses_data_pipeline.py", line 102, in _load_data_from_gcs_to_bigquery
+    job.result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/base.py", line 911, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/future/polling.py", line 137, in result
+    raise self._exception
+google.api_core.exceptions.Forbidden: 403 Access Denied: File gs://deb-greenery-datapipeline/greenery/addresses/addresses-2023-05-14.csv: Access Denied
+[2023-05-14T05:49:20.611+0000] {taskinstance.py:1332} INFO - Marking task as FAILED. dag_id=greenery_addresses_data_pipeline, task_id=load_data_from_gcs_to_bigquery, execution_date=20230514T054423, start_date=20230514T054919, end_date=20230514T054920
+[2023-05-14T05:49:20.621+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 24 for task load_data_from_gcs_to_bigquery (403 Access Denied: File gs://deb-greenery-datapipeline/greenery/addresses/addresses-2023-05-14.csv: Access Denied; 11160)
+[2023-05-14T05:49:20.635+0000] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-05-14T05:49:20.652+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

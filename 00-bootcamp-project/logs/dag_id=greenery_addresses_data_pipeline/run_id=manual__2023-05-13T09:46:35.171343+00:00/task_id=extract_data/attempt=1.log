@@ -1,0 +1,33 @@
+[2023-05-13T09:46:36.127+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: greenery_addresses_data_pipeline.extract_data manual__2023-05-13T09:46:35.171343+00:00 [queued]>
+[2023-05-13T09:46:36.133+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: greenery_addresses_data_pipeline.extract_data manual__2023-05-13T09:46:35.171343+00:00 [queued]>
+[2023-05-13T09:46:36.135+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-13T09:46:36.136+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2023-05-13T09:46:36.136+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-13T09:46:36.145+0000] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): extract_data> on 2023-05-13 09:46:35.171343+00:00
+[2023-05-13T09:46:36.152+0000] {standard_task_runner.py:55} INFO - Started process 10149 to run task
+[2023-05-13T09:46:36.158+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'greenery_addresses_data_pipeline', 'extract_data', 'manual__2023-05-13T09:46:35.171343+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/greenery_addresses_data_pipeline.py', '--cfg-path', '/tmp/tmpn6nzfag8']
+[2023-05-13T09:46:36.162+0000] {standard_task_runner.py:83} INFO - Job 6: Subtask extract_data
+[2023-05-13T09:46:36.257+0000] {task_command.py:389} INFO - Running <TaskInstance: greenery_addresses_data_pipeline.extract_data manual__2023-05-13T09:46:35.171343+00:00 [running]> on host 81a59154956d
+[2023-05-13T09:46:36.333+0000] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=greenery_addresses_data_pipeline
+AIRFLOW_CTX_TASK_ID=extract_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-13T09:46:35.171343+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-13T09:46:35.171343+00:00
+[2023-05-13T09:46:36.336+0000] {logging_mixin.py:137} INFO - ##### Start get data from API #####
+[2023-05-13T09:46:36.804+0000] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/greenery_addresses_data_pipeline.py", line 24, in _extract_data
+    with open(f"{DATA_FOLDER}/addresses.csv", "w") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/addresses.csv'
+[2023-05-13T09:46:36.817+0000] {taskinstance.py:1332} INFO - Marking task as FAILED. dag_id=greenery_addresses_data_pipeline, task_id=extract_data, execution_date=20230513T094635, start_date=20230513T094636, end_date=20230513T094636
+[2023-05-13T09:46:36.831+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 6 for task extract_data ([Errno 2] No such file or directory: 'data/addresses.csv'; 10149)
+[2023-05-13T09:46:36.868+0000] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-05-13T09:46:36.913+0000] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

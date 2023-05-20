@@ -1,0 +1,418 @@
+[2023-05-13T09:25:57.256+0000] {processor.py:153} INFO - Started process (PID=204) to work on /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:25:57.258+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example_gcs_to_bigquery_operator.py for tasks to queue
+[2023-05-13T09:25:57.259+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:25:57.259+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:25:57.937+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:25:57.932+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_gcs_to_bigquery_operator.py", line 5, in <module>
+    from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 40, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 62, in <module>
+    from airflow.providers.google.common.hooks.base_google import GoogleBaseAsyncHook, GoogleBaseHook, get_field
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 51, in <module>
+    from airflow.providers.google.cloud.utils.credentials_provider import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 38, in <module>
+    from airflow.providers.google.cloud._internal_client.secret_manager_client import _SecretManagerClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/_internal_client/secret_manager_client.py", line 23, in <module>
+    from google.cloud.secretmanager_v1 import SecretManagerServiceClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/__init__.py", line 22, in <module>
+    from google.cloud.secretmanager_v1 import types
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/types.py", line 23, in <module>
+    from google.cloud.secretmanager_v1.proto import resources_pb2
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/proto/resources_pb2.py", line 62, in <module>
+    type=None,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/protobuf/descriptor.py", line 796, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+[2023-05-13T09:25:57.939+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:25:57.955+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example_gcs_to_bigquery_operator.py took 0.702 seconds
+[2023-05-13T09:26:28.685+0000] {processor.py:153} INFO - Started process (PID=482) to work on /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:26:28.692+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example_gcs_to_bigquery_operator.py for tasks to queue
+[2023-05-13T09:26:28.696+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:26:28.696+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:26:29.242+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:26:29.238+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_gcs_to_bigquery_operator.py", line 5, in <module>
+    from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 40, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 62, in <module>
+    from airflow.providers.google.common.hooks.base_google import GoogleBaseAsyncHook, GoogleBaseHook, get_field
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 51, in <module>
+    from airflow.providers.google.cloud.utils.credentials_provider import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 38, in <module>
+    from airflow.providers.google.cloud._internal_client.secret_manager_client import _SecretManagerClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/_internal_client/secret_manager_client.py", line 23, in <module>
+    from google.cloud.secretmanager_v1 import SecretManagerServiceClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/__init__.py", line 22, in <module>
+    from google.cloud.secretmanager_v1 import types
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/types.py", line 23, in <module>
+    from google.cloud.secretmanager_v1.proto import resources_pb2
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/proto/resources_pb2.py", line 62, in <module>
+    type=None,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/protobuf/descriptor.py", line 796, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+[2023-05-13T09:26:29.244+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:26:29.260+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example_gcs_to_bigquery_operator.py took 0.583 seconds
+[2023-05-13T09:26:59.744+0000] {processor.py:153} INFO - Started process (PID=760) to work on /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:26:59.749+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example_gcs_to_bigquery_operator.py for tasks to queue
+[2023-05-13T09:26:59.751+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:26:59.751+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:27:00.271+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:27:00.264+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_gcs_to_bigquery_operator.py", line 5, in <module>
+    from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 40, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 62, in <module>
+    from airflow.providers.google.common.hooks.base_google import GoogleBaseAsyncHook, GoogleBaseHook, get_field
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 51, in <module>
+    from airflow.providers.google.cloud.utils.credentials_provider import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 38, in <module>
+    from airflow.providers.google.cloud._internal_client.secret_manager_client import _SecretManagerClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/_internal_client/secret_manager_client.py", line 23, in <module>
+    from google.cloud.secretmanager_v1 import SecretManagerServiceClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/__init__.py", line 22, in <module>
+    from google.cloud.secretmanager_v1 import types
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/types.py", line 23, in <module>
+    from google.cloud.secretmanager_v1.proto import resources_pb2
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/proto/resources_pb2.py", line 62, in <module>
+    type=None,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/protobuf/descriptor.py", line 796, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+[2023-05-13T09:27:00.274+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:27:00.296+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example_gcs_to_bigquery_operator.py took 0.559 seconds
+[2023-05-13T09:27:30.406+0000] {processor.py:153} INFO - Started process (PID=1038) to work on /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:27:30.410+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example_gcs_to_bigquery_operator.py for tasks to queue
+[2023-05-13T09:27:30.413+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:27:30.412+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:27:30.915+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:27:30.911+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_gcs_to_bigquery_operator.py", line 5, in <module>
+    from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 40, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 62, in <module>
+    from airflow.providers.google.common.hooks.base_google import GoogleBaseAsyncHook, GoogleBaseHook, get_field
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 51, in <module>
+    from airflow.providers.google.cloud.utils.credentials_provider import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 38, in <module>
+    from airflow.providers.google.cloud._internal_client.secret_manager_client import _SecretManagerClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/_internal_client/secret_manager_client.py", line 23, in <module>
+    from google.cloud.secretmanager_v1 import SecretManagerServiceClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/__init__.py", line 22, in <module>
+    from google.cloud.secretmanager_v1 import types
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/types.py", line 23, in <module>
+    from google.cloud.secretmanager_v1.proto import resources_pb2
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/proto/resources_pb2.py", line 62, in <module>
+    type=None,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/protobuf/descriptor.py", line 796, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+[2023-05-13T09:27:30.918+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:27:30.936+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example_gcs_to_bigquery_operator.py took 0.538 seconds
+[2023-05-13T09:28:01.142+0000] {processor.py:153} INFO - Started process (PID=1316) to work on /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:28:01.145+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example_gcs_to_bigquery_operator.py for tasks to queue
+[2023-05-13T09:28:01.146+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:28:01.146+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:28:01.590+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:28:01.579+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_gcs_to_bigquery_operator.py", line 5, in <module>
+    from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 40, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 62, in <module>
+    from airflow.providers.google.common.hooks.base_google import GoogleBaseAsyncHook, GoogleBaseHook, get_field
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 51, in <module>
+    from airflow.providers.google.cloud.utils.credentials_provider import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 38, in <module>
+    from airflow.providers.google.cloud._internal_client.secret_manager_client import _SecretManagerClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/_internal_client/secret_manager_client.py", line 23, in <module>
+    from google.cloud.secretmanager_v1 import SecretManagerServiceClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/__init__.py", line 22, in <module>
+    from google.cloud.secretmanager_v1 import types
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/types.py", line 23, in <module>
+    from google.cloud.secretmanager_v1.proto import resources_pb2
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/proto/resources_pb2.py", line 62, in <module>
+    type=None,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/protobuf/descriptor.py", line 796, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+[2023-05-13T09:28:01.605+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:28:01.622+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example_gcs_to_bigquery_operator.py took 0.489 seconds
+[2023-05-13T09:28:32.097+0000] {processor.py:153} INFO - Started process (PID=1594) to work on /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:28:32.100+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example_gcs_to_bigquery_operator.py for tasks to queue
+[2023-05-13T09:28:32.102+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:28:32.102+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:28:32.482+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:28:32.477+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_gcs_to_bigquery_operator.py", line 5, in <module>
+    from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 40, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 62, in <module>
+    from airflow.providers.google.common.hooks.base_google import GoogleBaseAsyncHook, GoogleBaseHook, get_field
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 51, in <module>
+    from airflow.providers.google.cloud.utils.credentials_provider import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 38, in <module>
+    from airflow.providers.google.cloud._internal_client.secret_manager_client import _SecretManagerClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/_internal_client/secret_manager_client.py", line 23, in <module>
+    from google.cloud.secretmanager_v1 import SecretManagerServiceClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/__init__.py", line 22, in <module>
+    from google.cloud.secretmanager_v1 import types
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/types.py", line 23, in <module>
+    from google.cloud.secretmanager_v1.proto import resources_pb2
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/proto/resources_pb2.py", line 62, in <module>
+    type=None,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/protobuf/descriptor.py", line 796, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+[2023-05-13T09:28:32.484+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:28:32.500+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example_gcs_to_bigquery_operator.py took 0.407 seconds
+[2023-05-13T09:29:02.835+0000] {processor.py:153} INFO - Started process (PID=1872) to work on /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:29:02.843+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example_gcs_to_bigquery_operator.py for tasks to queue
+[2023-05-13T09:29:02.845+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:29:02.845+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:29:03.301+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:29:03.297+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_gcs_to_bigquery_operator.py", line 5, in <module>
+    from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 40, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 62, in <module>
+    from airflow.providers.google.common.hooks.base_google import GoogleBaseAsyncHook, GoogleBaseHook, get_field
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 51, in <module>
+    from airflow.providers.google.cloud.utils.credentials_provider import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 38, in <module>
+    from airflow.providers.google.cloud._internal_client.secret_manager_client import _SecretManagerClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/_internal_client/secret_manager_client.py", line 23, in <module>
+    from google.cloud.secretmanager_v1 import SecretManagerServiceClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/__init__.py", line 22, in <module>
+    from google.cloud.secretmanager_v1 import types
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/types.py", line 23, in <module>
+    from google.cloud.secretmanager_v1.proto import resources_pb2
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/proto/resources_pb2.py", line 62, in <module>
+    type=None,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/protobuf/descriptor.py", line 796, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+[2023-05-13T09:29:03.304+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:29:03.322+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example_gcs_to_bigquery_operator.py took 0.493 seconds
+[2023-05-13T09:29:34.094+0000] {processor.py:153} INFO - Started process (PID=2150) to work on /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:29:34.100+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example_gcs_to_bigquery_operator.py for tasks to queue
+[2023-05-13T09:29:34.103+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:29:34.102+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:29:34.571+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:29:34.567+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_gcs_to_bigquery_operator.py", line 5, in <module>
+    from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 40, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 62, in <module>
+    from airflow.providers.google.common.hooks.base_google import GoogleBaseAsyncHook, GoogleBaseHook, get_field
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 51, in <module>
+    from airflow.providers.google.cloud.utils.credentials_provider import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 38, in <module>
+    from airflow.providers.google.cloud._internal_client.secret_manager_client import _SecretManagerClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/_internal_client/secret_manager_client.py", line 23, in <module>
+    from google.cloud.secretmanager_v1 import SecretManagerServiceClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/__init__.py", line 22, in <module>
+    from google.cloud.secretmanager_v1 import types
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/types.py", line 23, in <module>
+    from google.cloud.secretmanager_v1.proto import resources_pb2
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/proto/resources_pb2.py", line 62, in <module>
+    type=None,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/protobuf/descriptor.py", line 796, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+[2023-05-13T09:29:34.574+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:29:34.592+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example_gcs_to_bigquery_operator.py took 0.502 seconds
+[2023-05-13T09:30:05.311+0000] {processor.py:153} INFO - Started process (PID=2428) to work on /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:30:05.313+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example_gcs_to_bigquery_operator.py for tasks to queue
+[2023-05-13T09:30:05.314+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:05.314+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:30:05.761+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:05.741+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_gcs_to_bigquery_operator.py", line 5, in <module>
+    from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 40, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 62, in <module>
+    from airflow.providers.google.common.hooks.base_google import GoogleBaseAsyncHook, GoogleBaseHook, get_field
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 51, in <module>
+    from airflow.providers.google.cloud.utils.credentials_provider import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 38, in <module>
+    from airflow.providers.google.cloud._internal_client.secret_manager_client import _SecretManagerClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/_internal_client/secret_manager_client.py", line 23, in <module>
+    from google.cloud.secretmanager_v1 import SecretManagerServiceClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/__init__.py", line 22, in <module>
+    from google.cloud.secretmanager_v1 import types
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/types.py", line 23, in <module>
+    from google.cloud.secretmanager_v1.proto import resources_pb2
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/proto/resources_pb2.py", line 62, in <module>
+    type=None,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/protobuf/descriptor.py", line 796, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+[2023-05-13T09:30:05.764+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:30:05.790+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example_gcs_to_bigquery_operator.py took 0.488 seconds
+[2023-05-13T09:30:36.401+0000] {processor.py:153} INFO - Started process (PID=2711) to work on /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:30:36.404+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example_gcs_to_bigquery_operator.py for tasks to queue
+[2023-05-13T09:30:36.406+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:36.406+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:30:36.842+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:36.838+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_gcs_to_bigquery_operator.py", line 5, in <module>
+    from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 40, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 62, in <module>
+    from airflow.providers.google.common.hooks.base_google import GoogleBaseAsyncHook, GoogleBaseHook, get_field
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 51, in <module>
+    from airflow.providers.google.cloud.utils.credentials_provider import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 38, in <module>
+    from airflow.providers.google.cloud._internal_client.secret_manager_client import _SecretManagerClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/_internal_client/secret_manager_client.py", line 23, in <module>
+    from google.cloud.secretmanager_v1 import SecretManagerServiceClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/__init__.py", line 22, in <module>
+    from google.cloud.secretmanager_v1 import types
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/types.py", line 23, in <module>
+    from google.cloud.secretmanager_v1.proto import resources_pb2
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/proto/resources_pb2.py", line 62, in <module>
+    type=None,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/protobuf/descriptor.py", line 796, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+[2023-05-13T09:30:36.844+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:30:36.863+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example_gcs_to_bigquery_operator.py took 0.466 seconds
+[2023-05-13T09:31:07.353+0000] {processor.py:153} INFO - Started process (PID=2988) to work on /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:31:07.355+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example_gcs_to_bigquery_operator.py for tasks to queue
+[2023-05-13T09:31:07.357+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:31:07.357+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:31:07.739+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:31:07.735+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_gcs_to_bigquery_operator.py", line 5, in <module>
+    from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 40, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 62, in <module>
+    from airflow.providers.google.common.hooks.base_google import GoogleBaseAsyncHook, GoogleBaseHook, get_field
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 51, in <module>
+    from airflow.providers.google.cloud.utils.credentials_provider import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 38, in <module>
+    from airflow.providers.google.cloud._internal_client.secret_manager_client import _SecretManagerClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/_internal_client/secret_manager_client.py", line 23, in <module>
+    from google.cloud.secretmanager_v1 import SecretManagerServiceClient
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/__init__.py", line 22, in <module>
+    from google.cloud.secretmanager_v1 import types
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/types.py", line 23, in <module>
+    from google.cloud.secretmanager_v1.proto import resources_pb2
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/secretmanager_v1/proto/resources_pb2.py", line 62, in <module>
+    type=None,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/protobuf/descriptor.py", line 796, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+[2023-05-13T09:31:07.741+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/example_gcs_to_bigquery_operator.py
+[2023-05-13T09:31:07.757+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example_gcs_to_bigquery_operator.py took 0.410 seconds

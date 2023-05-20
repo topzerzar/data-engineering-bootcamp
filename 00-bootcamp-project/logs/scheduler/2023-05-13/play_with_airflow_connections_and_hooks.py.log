@@ -1,0 +1,214 @@
+[2023-05-13T09:25:56.489+0000] {processor.py:153} INFO - Started process (PID=180) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:25:56.492+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2023-05-13T09:25:56.493+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:25:56.493+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:25:56.567+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:25:56.564+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/play_with_airflow_connections_and_hooks.py", line 6, in <module>
+    import great_expectations as ge
+ModuleNotFoundError: No module named 'great_expectations'
+[2023-05-13T09:25:56.569+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:25:56.593+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.110 seconds
+[2023-05-13T09:26:27.373+0000] {processor.py:153} INFO - Started process (PID=458) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:26:27.379+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2023-05-13T09:26:27.381+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:26:27.381+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:26:27.420+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:26:27.416+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/play_with_airflow_connections_and_hooks.py", line 6, in <module>
+    import great_expectations as ge
+ModuleNotFoundError: No module named 'great_expectations'
+[2023-05-13T09:26:27.421+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:26:27.446+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.083 seconds
+[2023-05-13T09:26:58.426+0000] {processor.py:153} INFO - Started process (PID=736) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:26:58.429+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2023-05-13T09:26:58.430+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:26:58.430+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:26:58.476+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:26:58.472+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/play_with_airflow_connections_and_hooks.py", line 6, in <module>
+    import great_expectations as ge
+ModuleNotFoundError: No module named 'great_expectations'
+[2023-05-13T09:26:58.479+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:26:58.514+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.093 seconds
+[2023-05-13T09:27:28.648+0000] {processor.py:153} INFO - Started process (PID=1012) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:27:28.651+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2023-05-13T09:27:28.652+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:27:28.652+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:27:28.698+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:27:28.680+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/play_with_airflow_connections_and_hooks.py", line 6, in <module>
+    import great_expectations as ge
+ModuleNotFoundError: No module named 'great_expectations'
+[2023-05-13T09:27:28.700+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:27:28.732+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.088 seconds
+[2023-05-13T09:27:59.417+0000] {processor.py:153} INFO - Started process (PID=1292) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:27:59.419+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2023-05-13T09:27:59.422+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:27:59.421+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:27:59.479+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:27:59.471+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/play_with_airflow_connections_and_hooks.py", line 6, in <module>
+    import great_expectations as ge
+ModuleNotFoundError: No module named 'great_expectations'
+[2023-05-13T09:27:59.482+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:27:59.509+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.097 seconds
+[2023-05-13T09:28:29.846+0000] {processor.py:153} INFO - Started process (PID=1570) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:28:29.852+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2023-05-13T09:28:29.854+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:28:29.854+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:28:29.882+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:28:29.879+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/play_with_airflow_connections_and_hooks.py", line 6, in <module>
+    import great_expectations as ge
+ModuleNotFoundError: No module named 'great_expectations'
+[2023-05-13T09:28:29.884+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:28:29.905+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.067 seconds
+[2023-05-13T09:29:00.540+0000] {processor.py:153} INFO - Started process (PID=1848) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:29:00.542+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2023-05-13T09:29:00.546+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:29:00.546+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:29:00.604+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:29:00.602+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/play_with_airflow_connections_and_hooks.py", line 6, in <module>
+    import great_expectations as ge
+ModuleNotFoundError: No module named 'great_expectations'
+[2023-05-13T09:29:00.606+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:29:00.628+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.098 seconds
+[2023-05-13T09:29:30.714+0000] {processor.py:153} INFO - Started process (PID=2124) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:29:30.717+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2023-05-13T09:29:30.718+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:29:30.718+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:29:30.757+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:29:30.754+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/play_with_airflow_connections_and_hooks.py", line 6, in <module>
+    import great_expectations as ge
+ModuleNotFoundError: No module named 'great_expectations'
+[2023-05-13T09:29:30.758+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:29:30.782+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.072 seconds
+[2023-05-13T09:30:00.878+0000] {processor.py:153} INFO - Started process (PID=2397) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:30:00.894+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2023-05-13T09:30:00.896+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:00.896+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:30:00.928+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:00.926+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/play_with_airflow_connections_and_hooks.py", line 6, in <module>
+    import great_expectations as ge
+ModuleNotFoundError: No module named 'great_expectations'
+[2023-05-13T09:30:00.932+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:30:00.982+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.109 seconds
+[2023-05-13T09:30:03.060+0000] {processor.py:153} INFO - Started process (PID=2412) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:30:03.063+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2023-05-13T09:30:03.065+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:03.065+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:30:03.117+0000] {processor.py:753} INFO - DAG(s) dict_keys(['play_with_airflow_connections_and_hooks']) retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:30:03.189+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:03.189+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:play_with_airflow_connections_and_hooks
+[2023-05-13T09:30:03.195+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:03.195+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:play_with_airflow_connections_and_hooks
+[2023-05-13T09:30:03.201+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:03.201+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:play_with_airflow_connections_and_hooks
+[2023-05-13T09:30:03.203+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:03.203+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:30:03.211+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:03.211+0000] {dag.py:2726} INFO - Creating ORM DAG for play_with_airflow_connections_and_hooks
+[2023-05-13T09:30:03.218+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:03.218+0000] {dag.py:3456} INFO - Setting next_dagrun for play_with_airflow_connections_and_hooks to None, run_after=None
+[2023-05-13T09:30:03.239+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.185 seconds
+[2023-05-13T09:30:20.699+0000] {processor.py:153} INFO - Started process (PID=2675) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:30:20.702+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2023-05-13T09:30:20.705+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:20.705+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:30:20.757+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:20.751+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/play_with_airflow_connections_and_hooks.py", line 66, in <module>
+    python_callable=_validate_data,
+NameError: name '_validate_data' is not defined
+[2023-05-13T09:30:20.761+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:30:20.812+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.118 seconds
+[2023-05-13T09:30:24.855+0000] {processor.py:153} INFO - Started process (PID=2680) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:30:24.857+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2023-05-13T09:30:24.859+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:24.859+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:30:24.906+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:24.903+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/play_with_airflow_connections_and_hooks.py", line 69, in <module>
+    dump_product_data >> validate_data
+NameError: name 'validate_data' is not defined
+[2023-05-13T09:30:24.921+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:30:24.952+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.105 seconds
+[2023-05-13T09:30:25.940+0000] {processor.py:153} INFO - Started process (PID=2685) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:30:25.942+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2023-05-13T09:30:25.944+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:25.944+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:30:25.992+0000] {processor.py:753} INFO - DAG(s) dict_keys(['play_with_airflow_connections_and_hooks']) retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:30:26.007+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:26.007+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:30:26.029+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:26.029+0000] {dag.py:3456} INFO - Setting next_dagrun for play_with_airflow_connections_and_hooks to None, run_after=None
+[2023-05-13T09:30:26.046+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.110 seconds
+[2023-05-13T09:30:56.948+0000] {processor.py:153} INFO - Started process (PID=2958) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:30:56.950+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2023-05-13T09:30:56.953+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:56.953+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:30:56.982+0000] {processor.py:753} INFO - DAG(s) dict_keys(['play_with_airflow_connections_and_hooks']) retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:30:57.040+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:57.039+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:30:57.055+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:30:57.055+0000] {dag.py:3456} INFO - Setting next_dagrun for play_with_airflow_connections_and_hooks to None, run_after=None
+[2023-05-13T09:30:57.067+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.122 seconds
+[2023-05-13T09:31:27.304+0000] {processor.py:153} INFO - Started process (PID=3236) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:31:27.307+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2023-05-13T09:31:27.310+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:31:27.310+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:31:27.357+0000] {processor.py:753} INFO - DAG(s) dict_keys(['play_with_airflow_connections_and_hooks']) retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:31:27.386+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:31:27.386+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:31:27.415+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:31:27.415+0000] {dag.py:3456} INFO - Setting next_dagrun for play_with_airflow_connections_and_hooks to None, run_after=None
+[2023-05-13T09:31:27.429+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.131 seconds
+[2023-05-13T09:31:44.466+0000] {processor.py:153} INFO - Started process (PID=3487) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:31:44.470+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2023-05-13T09:31:44.472+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:31:44.472+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:31:44.530+0000] {processor.py:753} INFO - DAG(s) dict_keys(['play_with_airflow_connections_and_hooks']) retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:31:44.571+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:31:44.571+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:31:44.590+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:31:44.590+0000] {dag.py:3456} INFO - Setting next_dagrun for play_with_airflow_connections_and_hooks to None, run_after=None
+[2023-05-13T09:31:44.607+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.147 seconds
+[2023-05-13T09:32:15.027+0000] {processor.py:153} INFO - Started process (PID=3753) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:32:15.029+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2023-05-13T09:32:15.031+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:32:15.031+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:32:15.064+0000] {processor.py:753} INFO - DAG(s) dict_keys(['play_with_airflow_connections_and_hooks']) retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:32:15.123+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:32:15.123+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:32:15.151+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:32:15.151+0000] {dag.py:3456} INFO - Setting next_dagrun for play_with_airflow_connections_and_hooks to None, run_after=None
+[2023-05-13T09:32:15.165+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.144 seconds
+[2023-05-13T09:32:45.466+0000] {processor.py:153} INFO - Started process (PID=4011) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:32:45.472+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2023-05-13T09:32:45.474+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:32:45.474+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:32:45.513+0000] {processor.py:753} INFO - DAG(s) dict_keys(['play_with_airflow_connections_and_hooks']) retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:32:45.537+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:32:45.537+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:32:45.554+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:32:45.554+0000] {dag.py:3456} INFO - Setting next_dagrun for play_with_airflow_connections_and_hooks to None, run_after=None
+[2023-05-13T09:32:45.566+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.105 seconds
+[2023-05-13T09:33:15.954+0000] {processor.py:153} INFO - Started process (PID=4269) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:33:15.957+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2023-05-13T09:33:15.958+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:33:15.958+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:33:15.985+0000] {processor.py:753} INFO - DAG(s) dict_keys(['play_with_airflow_connections_and_hooks']) retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2023-05-13T09:33:16.009+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:33:16.009+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-05-13T09:33:16.026+0000] {logging_mixin.py:137} INFO - [2023-05-13T09:33:16.026+0000] {dag.py:3456} INFO - Setting next_dagrun for play_with_airflow_connections_and_hooks to None, run_after=None
+[2023-05-13T09:33:16.039+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.089 seconds

@@ -1,0 +1,25 @@
+[2023-05-14T05:45:43.985+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: greenery_addresses_data_pipeline.load_data_to_gcs manual__2023-05-14T05:44:23.238480+00:00 [queued]>
+[2023-05-14T05:45:43.994+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: greenery_addresses_data_pipeline.load_data_to_gcs manual__2023-05-14T05:44:23.238480+00:00 [queued]>
+[2023-05-14T05:45:43.995+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-14T05:45:43.995+0000] {taskinstance.py:1289} INFO - Starting attempt 2 of 2
+[2023-05-14T05:45:43.996+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-14T05:45:44.006+0000] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): load_data_to_gcs> on 2023-05-14 05:44:23.238480+00:00
+[2023-05-14T05:45:44.012+0000] {standard_task_runner.py:55} INFO - Started process 9514 to run task
+[2023-05-14T05:45:44.016+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'greenery_addresses_data_pipeline', 'load_data_to_gcs', 'manual__2023-05-14T05:44:23.238480+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/greenery_addresses_data_pipeline.py', '--cfg-path', '/tmp/tmpx9i7_rmy']
+[2023-05-14T05:45:44.017+0000] {standard_task_runner.py:83} INFO - Job 22: Subtask load_data_to_gcs
+[2023-05-14T05:45:44.107+0000] {task_command.py:389} INFO - Running <TaskInstance: greenery_addresses_data_pipeline.load_data_to_gcs manual__2023-05-14T05:44:23.238480+00:00 [running]> on host 81a59154956d
+[2023-05-14T05:45:44.170+0000] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=greenery_addresses_data_pipeline
+AIRFLOW_CTX_TASK_ID=load_data_to_gcs
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-14T05:44:23.238480+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-14T05:44:23.238480+00:00
+[2023-05-14T05:45:44.173+0000] {logging_mixin.py:137} INFO - ##### Start upload data: addresses , date: 2023-05-14 to GCS #####
+[2023-05-14T05:45:44.728+0000] {logging_mixin.py:137} INFO - ##### END upload data: addresses , date: 2023-05-14 to GCS #####
+[2023-05-14T05:45:44.729+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-05-14T05:45:44.741+0000] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=greenery_addresses_data_pipeline, task_id=load_data_to_gcs, execution_date=20230514T054423, start_date=20230514T054543, end_date=20230514T054544
+[2023-05-14T05:45:44.790+0000] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-05-14T05:45:44.810+0000] {taskinstance.py:2596} INFO - 1 downstream tasks scheduled from follow-on schedule check
